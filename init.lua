@@ -1,5 +1,2 @@
--- Copy / Paste line like in vim
-vim.api.nvim_set_keymap('n', 'Y', 'yy', { noremap })
+require("mzo.core.options")
 
--- Enable relative numbers
-vim.o.relativenumber = true
